@@ -19,13 +19,17 @@ Jimmy Pesto
 <br/>
 <hr/>
 <br/>
-Hey Jimmy,<br/>
-I'm sorry to hear about the trouble you're having let's see what we can do together to get this working. Since you're looking to monitor firebase hosting let's go over the Google Cloud Project's [IAM permissions](https://console.cloud.google.com/iam-admin/iam) first and look at a few things:<br/><br/>
+ 
 
-* From following the steps to [add a GCP project](https://one.newrelic.com/launcher/infra.infra?platform[accountId]=3056649&platform[timeRange][duration]=3600000&pane=eyJuZXJkbGV0SWQiOiJpbmZyYS5ob3N0cyIsImZlYXR1cmUiOiJzeXN0ZW0ifQ "Just in case you need a refresher!") you should see a project member added with an email address ending with<br/><br/>
-***@newrelic-gcp.iam.gserviceaccount.com***.<br/><br/>
+Hey Jimmy,<br/>
+I'm sorry to hear about the trouble you're having, let's see what we can do together to get this working. Since you're looking to monitor firebase hosting let's go over your Google Cloud Project's [IAM permissions](https://console.cloud.google.com/iam-admin/iam "I believe in you!") first and look at a few things:<br/><br/>
+
+* From following the steps to [add a GCP project](https://one.newrelic.com/launcher/infra.infra?platform[accountId]=3056649&platform[timeRange][duration]=3600000&pane=eyJuZXJkbGV0SWQiOiJpbmZyYS5ob3N0cyIsImZlYXR1cmUiOiJzeXN0ZW0ifQ "Just in case you need a refresher!") you should see a project member added with an email address ending with:
+```
+@newrelic-gcp.iam.gserviceaccount.com
+```
 * This member should be assigned two roles: ***Viewer*** and ***Service Usage Consumer***<br/><br/>
-* Let's add an additional role titled ***Firebase Hosting Viewer*** and click save.
+* Let's add a third role titled ***Firebase Hosting Viewer*** and click save.
 <br/><br/>
 
 Additionally, let's head over to Google Cloud Platform's [API's & Services](https://console.cloud.google.com/apis/dashboard "You got this!") page to ensure we've enabled the<br/><br/>
