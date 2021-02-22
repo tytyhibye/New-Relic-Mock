@@ -60,8 +60,25 @@ Thanks,<br/>
 The data fields attached to your application's hosting are dependent on the traffic and usage of the application itself. So even though there's not much to show now those numbers will gradually increase over time.
 
 Here's some [additional documentation](https://docs.newrelic.com/docs/integrations/google-cloud-platform-integrations/gcp-integrations-list/google-cloud-firebase-hosting-monitoring-integration "You did a great job!")</a> to help get you more comfortable with querying the data coming in from Firebase.
+Thank you for your patience throughout this process, new interfaces can be a bit confusing at first but you're doing great! Let me know if you start seeing the numbers and if I can offer any additional assistance.
 <br/><br/>
+Empathetically,<br/>
+Tyler Bates
+<hr/><br/><br/>
+Okay Tyler,<br/>
+I found the data and ran some traffic through the site to confirm that it's correctly monitoring my application! Thank you so much for your help getting this set up and yes new interfaces can be quite overwhelming at first. Time to deep dive into some documentation! Ah, the life of a budding developer.
+<br/><br/>
+Thanks again,<br/>
+Jimmy Pesto
+<hr/><br/><br/>
+Hey Jimmy,<br/>
+There's nothing better than that feeling that washes over you when things are working the way they're intended.
 Great job implementing the platform and thanks for using New Relic!
 <br/><br/>
 Fondly,<br/>
 Tyler Bates
+<br/><br/>
+
+```
+Customer closes ticket by confirming they don't need any further assistance
+```
