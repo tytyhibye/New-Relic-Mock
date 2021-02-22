@@ -24,7 +24,7 @@ Jimmy Pesto
 Hey Jimmy,<br/>
 I'm sorry to hear about the trouble you're having, let's see what we can do together to get this working. Since you're looking to monitor firebase hosting let's go over your Google Cloud Project's [IAM permissions](https://console.cloud.google.com/iam-admin/iam "I believe in you!") first and look at a few things:<br/><br/>
 
-* From following the steps to [add a GCP project](https://one.newrelic.com/launcher/infra.infra?platform[accountId]=3056649&platform[timeRange][duration]=3600000&pane=eyJuZXJkbGV0SWQiOiJpbmZyYS5ob3N0cyIsImZlYXR1cmUiOiJzeXN0ZW0ifQ "Just in case you need a refresher!") you should see a project member added with an email address ending with:
+* From following the steps to [add a GCP project](https://ibb.co/LzWTgps "Just in case you need a refresher!") you should see a project member added with an email address ending with:
 ```
 @newrelic-gcp.iam.gserviceaccount.com
 ```
